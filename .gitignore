@@ -1,0 +1,24 @@
+# Ignore the virtual environment directory
+pr-venv/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# Ignore other common files that should not be in the repository
+.env
+.DS_Store
+Thumbs.db
+
+# Ignore system-specific files
+.vscode/
+.idea/
